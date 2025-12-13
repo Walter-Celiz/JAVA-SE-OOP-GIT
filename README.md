@@ -248,7 +248,7 @@ JAVA SE + OOP + GIT/
 
 ## Cómo usarlo
 
-1. Abrir IntelliJ IDEA e importar la carpeta `JAVA SE + OOP` como proyecto Java.
+1. Abrir IntelliJ IDEA o IDE/editor de preferencia e importar la carpeta `JAVA SE + OOP` como proyecto Java.
 2. Ejecutar los archivos `.java` dentro de la carpeta `code/`.
-3. Consultar la documentación `.md` en Obsidian para repasar teoría, ejercicios y notas.
+3. Consultar la documentación `.md` en Obsidian o programa de preferencia para repasar teoría y ejercicios.
 

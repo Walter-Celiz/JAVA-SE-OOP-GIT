@@ -122,10 +122,13 @@ JAVA SE + OOP + GIT/
 │====================================================================
 │
 │
-├── GIT/
-│   ├── 0 - Índice/
-│   │   └── 0 - Índice.md
-│   ├── 1 - Git Básico/
+GIT/
+│
+├── 0 - Índice/
+│   └── 0 - Índice.md
+│
+├── 1 - Git Básico/
+│   ├── 1.1 - Qué es Git/
 │   │   ├── 1.1 - Qué es Git.md
 │   │   ├── code/
 │   │   │   ├── inicializar_repositorio.md
@@ -133,114 +136,169 @@ JAVA SE + OOP + GIT/
 │   │   │   ├── primer_archivo_versionado.md
 │   │   │   └── primer_commit_minimo.md
 │   │   └── resources/
-│   ├── 1.2 - Instalación y configuración.md
+│   ├── 1.2 - Instalación y configuración/
+│   │   ├── 1.2 - Instalación y configuración.md
 │   │   ├── code/
 │   │   │   ├── verificar_instalacion.md
 │   │   │   ├── configurar_nombre_y_email.md
 │   │   │   ├── configurar_editor.md
 │   │   │   └── ver_configuracion_actual.md
 │   │   └── resources/
-│   ├── 1.3 - Repositorios locales y remotos.md
+│   ├── 1.3 - Repositorios locales y remotos/
+│   │   ├── 1.3 - Repositorios locales y remotos.md
 │   │   ├── code/
 │   │   │   ├── crear_repo_local.md
 │   │   │   ├── agregar_remoto.md
 │   │   │   ├── ver_remotos.md
 │   │   │   └── eliminar_remoto.md
 │   │   └── resources/
-│   ├── 1.4 - Primer commit.md
+│   ├── 1.4 - Primer commit/
+│   │   ├── 1.4 - Primer commit.md
 │   │   ├── code/
 │   │   │   ├── preparar_archivos.md
 │   │   │   ├── agregar_al_stage.md
 │   │   │   ├── realizar_commit.md
 │   │   │   └── commit_con_mensaje_correcto.md
 │   │   └── resources/
-│   ├── 1.5 - Estado y seguimiento de archivos.md
+│   ├── 1.5 - Estado y seguimiento de archivos/
+│   │   ├── 1.5 - Estado y seguimiento de archivos.md
 │   │   ├── code/
 │   │   │   ├── archivos_trackeados_y_no_trackeados.md
 │   │   │   ├── git_status_en_detalle.md
 │   │   │   ├── quitar_archivos_del_stage.md
 │   │   │   └── ignorar_archivos_gitignore.md
 │   │   └── resources/
-│   ├── 1.6 - Historial y logs.md
+│   ├── 1.6 - Historial y logs/
+│   │   ├── 1.6 - Historial y logs.md
 │   │   ├── code/
 │   │   │   ├── ver_historial_simple.md
 │   │   │   ├── log_resumido_oneline.md
 │   │   │   ├── filtrar_logs.md
 │   │   │   └── ver_cambios_de_un_commit.md
 │   │   └── resources/
-│   ├── 2 - Git Ramas/
+│   └── 1.7 - Buenas prácticas/
+│       ├── 1.7 - Buenas prácticas.md
+│       ├── code/
+│       └── resources/
+│
+├── 2 - Git Ramas/
+│   ├── 2.1 - Qué es una rama/
 │   │   ├── 2.1 - Qué es una rama.md
-│   │   │   ├── code/ver_ramas.md
-│   │   │   ├── code/rama_actual.md
-│   │   │   └── code/entender_head.md
+│   │   ├── code/
+│   │   │   ├── ver_ramas.md
+│   │   │   ├── rama_actual.md
+│   │   │   └── entender_head.md
+│   │   └── resources/
+│   ├── 2.2 - Crear y cambiar ramas/
 │   │   ├── 2.2 - Crear y cambiar ramas.md
-│   │   │   ├── code/crear_rama.md
-│   │   │   ├── code/cambiar_rama.md
-│   │   │   ├── code/crear_y_cambiar.md
-│   │   │   └── code/borrar_rama.md
+│   │   ├── code/
+│   │   │   ├── crear_rama.md
+│   │   │   ├── cambiar_rama.md
+│   │   │   ├── crear_y_cambiar.md
+│   │   │   └── borrar_rama.md
+│   │   └── resources/
+│   ├── 2.3 - Merge básico/
 │   │   ├── 2.3 - Merge básico.md
-│   │   │   ├── code/merge_fast_forward.md
-│   │   │   ├── code/merge_no_fast_forward.md
-│   │   │   └── code/resolver_merge_simple.md
+│   │   ├── code/
+│   │   │   ├── merge_fast_forward.md
+│   │   │   ├── merge_no_fast_forward.md
+│   │   │   └── resolver_merge_simple.md
+│   │   └── resources/
+│   ├── 2.4 - Conflictos y resolución/
 │   │   ├── 2.4 - Conflictos y resolución.md
-│   │   │   ├── code/provocar_conflicto.md
-│   │   │   ├── code/entender_marcadores_conflicto.md
-│   │   │   ├── code/resolver_conflicto.md
-│   │   │   └── code/confirmar_resolucion.md
-│   │   └── 2.5 - Rebase básico.md
-│   │       ├── code/rebase_simple.md
-│   │       ├── code/resolver_conflicto_rebase.md
-│   │       ├── code/continuar_rebase.md
-│   │       └── code/abortar_rebase.md
-│   │       └── resources/
-│   ├── 3 - Git Remoto/
+│   │   ├── code/
+│   │   │   ├── provocar_conflicto.md
+│   │   │   ├── entender_marcadores_conflicto.md
+│   │   │   ├── resolver_conflicto.md
+│   │   │   └── confirmar_resolucion.md
+│   │   └── resources/
+│   └── 2.5 - Rebase básico/
+│       ├── 2.5 - Rebase básico.md
+│       ├── code/
+│       │   ├── rebase_simple.md
+│       │   ├── resolver_conflicto_rebase.md
+│       │   ├── continuar_rebase.md
+│       │   └── abortar_rebase.md
+│       └── resources/
+│
+├── 3 - Git Remoto/
+│   ├── 3.1 - Configurar remoto/
 │   │   ├── 3.1 - Configurar remoto.md
-│   │   │   ├── code/agregar_origin.md
-│   │   │   ├── code/verificar_remoto.md
-│   │   │   └── code/cambiar_url_remoto.md
+│   │   ├── code/
+│   │   │   ├── agregar_origin.md
+│   │   │   ├── verificar_remoto.md
+│   │   │   └── cambiar_url_remoto.md
+│   │   └── resources/
+│   ├── 3.2 - Push y pull/
 │   │   ├── 3.2 - Push y pull.md
-│   │   │   ├── code/primer_push.md
-│   │   │   ├── code/pull_cambios.md
-│   │   │   ├── code/push_con_rama.md
-│   │   │   └── code/resolver_rechazo_push.md
+│   │   ├── code/
+│   │   │   ├── primer_push.md
+│   │   │   ├── pull_cambios.md
+│   │   │   ├── push_con_rama.md
+│   │   │   └── resolver_rechazo_push.md
+│   │   └── resources/
+│   ├── 3.3 - Clonar repositorios/
 │   │   ├── 3.3 - Clonar repositorios.md
-│   │   │   ├── code/clonar_https.md
-│   │   │   ├── code/clonar_ssh.md
-│   │   │   └── code/verificar_repo_clonado.md
+│   │   ├── code/
+│   │   │   ├── clonar_https.md
+│   │   │   ├── clonar_ssh.md
+│   │   │   └── verificar_repo_clonado.md
+│   │   └── resources/
+│   ├── 3.4 - Fetch vs Pull/
 │   │   ├── 3.4 - Fetch vs Pull.md
-│   │   │   ├── code/fetch_remoto.md
-│   │   │   ├── code/comparar_fetch_y_pull.md
-│   │   │   └── code/actualizar_rama_local.md
-│   │   └── 3.5 - Trabajo en equipo.md
-│   │       ├── code/flujo_colaborativo_basico.md
-│   │       ├── code/actualizar_rama_antes_de_trabajar.md
-│   │       └── code/resolver_conflictos_equipo.md
-│   │       └── resources/
-│   └── 4 - Git Avanzado/
-│       ├── 4.1 - Stash.md
-│       │   ├── code/guardar_cambios_stash.md
-│       │   ├── code/listar_stash.md
-│       │   ├── code/aplicar_stash.md
-│       │   └── code/eliminar_stash.md
-│       ├── 4.2 - Cherry-pick.md
-│       │   ├── code/aplicar_commit_especifico.md
-│       │   ├── code/resolver_conflicto_cherrypick.md
-│       │   └── code/abortar_cherrypick.md
-│       ├── 4.3 - Reset y Revert.md
-│       │   ├── code/reset_soft.md
-│       │   ├── code/reset_mixed.md
-│       │   ├── code/reset_hard.md
-│       │   └── code/revert_commit.md
-│       ├── 4.4 - Tags.md
-│       │   ├── code/crear_tag_ligero.md
-│       │   ├── code/crear_tag_anotado.md
-│       │   └── code/listar_tags.md
-│       └── 4.5 - Rebase avanzado.md
-│           ├── code/rebase_interactivo.md
-│           ├── code/editar_commits.md
-│           ├── code/reordenar_commits.md
-│           └── code/squash_commits.md
-│           └── resources/
+│   │   ├── code/
+│   │   │   ├── fetch_remoto.md
+│   │   │   ├── comparar_fetch_y_pull.md
+│   │   │   └── actualizar_rama_local.md
+│   │   └── resources/
+│   └── 3.5 - Trabajo en equipo/
+│       ├── 3.5 - Trabajo en equipo.md
+│       ├── code/
+│       │   ├── flujo_colaborativo_basico.md
+│       │   ├── actualizar_rama_antes_de_trabajar.md
+│       │   └── resolver_conflictos_equipo.md
+│       └── resources/
+│
+└── 4 - Git Avanzado/
+    ├── 4.1 - Stash/
+    │   ├── 4.1 - Stash.md
+    │   ├── code/
+    │   │   ├── guardar_cambios_stash.md
+    │   │   ├── listar_stash.md
+    │   │   ├── aplicar_stash.md
+    │   │   └── eliminar_stash.md
+    │   └── resources/
+    ├── 4.2 - Cherry-pick/
+    │   ├── 4.2 - Cherry-pick.md
+    │   ├── code/
+    │   │   ├── aplicar_commit_especifico.md
+    │   │   ├── resolver_conflicto_cherrypick.md
+    │   │   └── abortar_cherrypick.md
+    │   └── resources/
+    ├── 4.3 - Reset y Revert/
+    │   ├── 4.3 - Reset y Revert.md
+    │   ├── code/
+    │   │   ├── reset_soft.md
+    │   │   ├── reset_mixed.md
+    │   │   ├── reset_hard.md
+    │   │   └── revert_commit.md
+    │   └── resources/
+    ├── 4.4 - Tags/
+    │   ├── 4.4 - Tags.md
+    │   ├── code/
+    │   │   ├── crear_tag_ligero.md
+    │   │   ├── crear_tag_anotado.md
+    │   │   └── listar_tags.md
+    │   └── resources/
+    └── 4.5 - Rebase avanzado/
+        ├── 4.5 - Rebase avanzado.md
+        ├── code/
+        │   ├── rebase_interactivo.md
+        │   ├── editar_commits.md
+        │   ├── reordenar_commits.md
+        │   └── squash_commits.md
+        └── resources/
+
 
 ```
 

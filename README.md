@@ -42,7 +42,10 @@ JAVA SE + OOP + GIT/
 │   │   ├── 1.5 - Compilación y ejecución.md
 │   │   │   └── code/Compilacion.java
 │   │   ├── 1.6 - Comentarios.md
-│           └── code/Comentarios.java  
+│   │   │   └── code/Comentarios.java
+│   │   └── 1.7 - Buenas prácticas iniciales.md
+│   │       ├── code/
+│   │       └── resources/buenas_practicas.png  
 │
 ├── 2 - Parte II - Intermedio/
 │   ├── 2.1 - Métodos.md
@@ -172,11 +175,7 @@ GIT/
 │   │   │   ├── log_resumido_oneline.md
 │   │   │   ├── filtrar_logs.md
 │   │   │   └── ver_cambios_de_un_commit.md
-│   │   └── resources/
-│   └── 1.7 - Buenas prácticas/
-│       ├── 1.7 - Buenas prácticas.md
-│       ├── code/
-│       └── resources/
+│   │   └── resources/     
 │
 ├── 2 - Git Ramas/
 │   ├── 2.1 - Qué es una rama/

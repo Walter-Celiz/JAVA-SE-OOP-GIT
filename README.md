@@ -42,10 +42,7 @@ JAVA SE + OOP + GIT/
 │   │   ├── 1.5 - Compilación y ejecución.md
 │   │   │   └── code/Compilacion.java
 │   │   ├── 1.6 - Comentarios.md
-│   │   │   └── code/Comentarios.java
-│   │   └── 1.7 - Buenas prácticas iniciales.md
-│   │       ├── code/
-│   │       └── resources/buenas_practicas.png
+│           └── code/Comentarios.java  
 │
 ├── 2 - Parte II - Intermedio/
 │   ├── 2.1 - Métodos.md

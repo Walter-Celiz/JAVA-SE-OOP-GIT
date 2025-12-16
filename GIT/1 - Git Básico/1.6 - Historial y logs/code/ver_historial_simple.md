@@ -1,14 +1,41 @@
-# ver historial simple
 
+#git #historial #log #simple
+
+---
 ## Descripción
-Ejemplo práctico de uso de Git relacionado con este tema.
+Este ejemplo muestra cómo **visualizar el historial básico de commits** en un repositorio Git de manera clara y rápida.
 
-## Comando / Flujo
-(comando de git aquí)
+---
+
+## Comando
+
+``` 
+git log
+```
+
+> Muestra todos los commits desde el más reciente hasta el más antiguo.
+
+---
 
 ## Explicación
-Explicación paso a paso de qué hace el comando y cuándo usarlo.
+
+Al ejecutar `git log`, se obtiene información de cada commit:
+
+- **Hash completo** del commit  
+- **Autor**  
+- **Fecha**  
+- **Mensaje de commit**
+
+Opciones útiles para mejorar la legibilidad:
+
+- `git log --oneline` → versión resumida (hash corto + mensaje)  
+- `git log -p` → muestra los **cambios realizados** (diff)  
+- `git log --stat` → resumen de **archivos modificados y líneas cambiadas**
+
+---
 
 ## Notas
-- Buenas prácticas
-- Errores comunes
+
+- Este comando **solo muestra commits locales**.  
+- Ideal para revisar rápidamente **qué cambios se han hecho**.  
+- Combinar con **filtros o formatos** para historiales más largos o específicos.

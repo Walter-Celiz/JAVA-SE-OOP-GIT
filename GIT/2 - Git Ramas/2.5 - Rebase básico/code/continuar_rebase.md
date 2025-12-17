@@ -1,14 +1,34 @@
-# continuar rebase
-
 ## Descripción
-Ejemplo práctico de uso de Git relacionado con este tema.
 
-## Comando / Flujo
-(comando de git aquí)
+Una vez resuelto un conflicto, se debe indicar a Git que continúe con el proceso de rebase.
 
-## Explicación
-Explicación paso a paso de qué hace el comando y cuándo usarlo.
+---
+## Comando
 
+```
+git rebase --continue
+```
+
+---
+
+## Qué hace Git
+
+- Toma el commit actual
+- Aplica el siguiente commit pendiente
+- Repite el proceso hasta finalizar
+
+---
+
+## Posibles resultados
+
+- Rebase finaliza correctamente
+- Aparece un nuevo conflicto
+- Git solicita continuar nuevamente
+
+---
 ## Notas
-- Buenas prácticas
-- Errores comunes
+
+- Puede requerir varios ciclos de resolución
+- Cada conflicto corresponde a un commit distinto
+
+

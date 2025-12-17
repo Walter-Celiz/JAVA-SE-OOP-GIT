@@ -1,14 +1,49 @@
-# rebase simple
-
 ## Descripción
-Ejemplo práctico de uso de Git relacionado con este tema.
 
-## Comando / Flujo
-(comando de git aquí)
+Un rebase simple consiste en **mover una rama de trabajo** para que continúe desde el último commit de otra rama.
 
-## Explicación
-Explicación paso a paso de qué hace el comando y cuándo usarlo.
+Es el uso más común de `git rebase`.
+
+---
+## Flujo
+
+```
+git checkout feature  
+git rebase main
+```
+
+---
+
+## Qué ocurre
+
+- Los commits de `feature` se separan
+- `feature` se coloca sobre `main`
+- Los commits se reaplican uno a uno
+
+---
+
+## Representación conceptual
+
+Antes:
+
+```
+A---B---C (main)
+     \
+      D---E (feature)
+```
+
+Después:
+
+```
+A---B---C---D'---E' (feature)
+```
+
+---
 
 ## Notas
-- Buenas prácticas
-- Errores comunes
+
+- Los commits D y E cambian su hash
+- No se crea commit de merge
+- El historial queda lineal
+
+

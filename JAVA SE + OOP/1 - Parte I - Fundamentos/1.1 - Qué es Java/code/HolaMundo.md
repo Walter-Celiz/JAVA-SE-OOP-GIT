@@ -50,6 +50,20 @@ Archivo: `HolaMundo.java`
 - `System.out.println(...)`  
   Imprime un mensaje en la consola del sistema.
 
+---
+
+- `class`  
+    → Define una **clase** (un molde)
+    
+- `public`  
+    → Hace que Java pueda **ver** esa clase desde afuera
+    
+- `main`  
+    → Es el **punto de inicio** del programa
+    
+- `static` y `void`  
+    → **Existen**, pero no hace falta dominarlos todavía
+
 
 ---
 

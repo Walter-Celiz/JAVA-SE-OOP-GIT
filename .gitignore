@@ -1,5 +1,11 @@
+# Java
 *.class
+
+# IntelliJ IDEA
 *.iml
 .idea/
+out/
+
+# Logs y temporales
 *.log
 *.tmp

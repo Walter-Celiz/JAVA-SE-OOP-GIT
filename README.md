@@ -25,243 +25,308 @@ Aprender de manera práctica y completa, combinando:
 
 ## Estructura del repositorio
 ```
-JAVA SE + OOP + GIT/
+JAVA-SE-OOP-GIT/
 │
-├── JAVA SE + OOP/
+├── 0 - Indice/
+│   └── Indice.md
+│
+├── 1 - Parte I - Fundamentos/
 │   │
-│   ├── 0 - Índice/
-│   │   ├── 0.1 - Índice.md
+│   ├── 1.1 - Qué es Java/
+│   │   ├── 1.1 - Qué es Java.md
+│   │   ├── code/
+│   │   │   └── HolaMundo.java
+│   │   └── resources/
+│   │
+│   ├── 1.2 - JVM, JRE y JDK/
+│   │   ├── 1.2 - JVM, JRE y JDK.md
+│   │   ├── code/
+│   │   │   └── ConfiguracionJVM.java
+│   │   └── resources/
+│   │
+│   ├── 1.3 - Instalación y configuración/
+│   │   ├── 1.3 - Instalación y configuración.md
 │   │   ├── code/
 │   │   └── resources/
 │   │
-│   ├── 1 - Parte I - Fundamentos/
-│   │   │
-│   │   ├── 1.1 - Qué es Java/
-│   │   │   ├── 1.1 - Qué es Java.md
-│   │   │   ├── code/
-│   │   │   │   └── HolaMundo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 1.2 - JVM, JRE y JDK/
-│   │   │   ├── 1.2 - JVM, JRE y JDK.md
-│   │   │   ├── code/
-│   │   │   │   └── ConfiguracionJVM.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 1.3 - Instalación y configuración/
-│   │   │   ├── 1.3 - Instalación y configuración.md
-│   │   │   ├── code/
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 1.4 - Compilación y ejecución/
-│   │   │   ├── 1.4 - Compilación y ejecución.md
-│   │   │   ├── code/
-│   │   │   │   └── Compilacion.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 1.5 - Comentarios/
-│   │   │   ├── 1.5 - Comentarios.md
-│   │   │   ├── code/
-│   │   │   │   └── Comentarios.java
-│   │   │   └── resources/
-│   │   │
-│   │   └── 1.6 - Buenas prácticas iniciales/
-│   │       ├── 1.6 - Buenas prácticas iniciales.md
-│   │       ├── code/
-│   │       └── resources/
-│   │           └── buenas_practicas.png
+│   ├── 1.4 - Compilación y ejecución/
+│   │   ├── 1.4 - Compilación y ejecución.md
+│   │   ├── code/
+│   │   │   └── Compilacion.java
+│   │   └── resources/
 │   │
-│   ├── 2 - Parte II - Intermedio/
-│   │   │
-│   │   ├── 2.1 - Métodos/
-│   │   │   ├── 2.1 - Métodos.md
-│   │   │   ├── code/
-│   │   │   │   └── MetodosEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 2.2 - Clases/
-│   │   │   ├── 2.2 - Clases.md
-│   │   │   ├── code/
-│   │   │   │   └── ClasesEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 2.3 - Modificadores/
-│   │   │   ├── 2.3 - Modificadores.md
-│   │   │   ├── code/
-│   │   │   │   └── Modificadores.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 2.4 - Enums/
-│   │   │   ├── 2.4 - Enums.md
-│   │   │   ├── code/
-│   │   │   │   └── EnumsEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 2.5 - Excepciones/
-│   │   │   ├── 2.5 - Excepciones.md
-│   │   │   ├── code/
-│   │   │   │   └── ExcepcionesEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 2.6 - Archivos/
-│   │   │   ├── 2.6 - Archivos.md
-│   │   │   ├── code/
-│   │   │   │   └── ArchivosEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 2.7 - java.time/
-│   │   │   ├── 2.7 - java.time.md
-│   │   │   ├── code/
-│   │   │   │   └── JavaTimeEjemplo.java
-│   │   │   └── resources/
-│   │   │       └── tabla_fechas.png
-│   │   │
-│   │   ├── 2.8 - BigDecimal y BigInteger/
-│   │   │   ├── 2.8 - BigDecimal y BigInteger.md
-│   │   │   ├── code/
-│   │   │   │   └── BigNumberEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   └── 2.9 - Colecciones y Object/
-│   │       ├── 2.9 - Colecciones y Object.md
-│   │       ├── code/
-│   │       │   └── ColeccionesEjemplo.java
-│   │       └── resources/
-│   │           └── diagrama_colecciones.png
+│   ├── 1.5 - Comentarios/
+│   │   ├── 1.5 - Comentarios.md
+│   │   ├── code/
+│   │   │   └── Comentarios.java
+│   │   └── resources/
 │   │
-│   ├── 3 - Parte III - OOP/
-│   │   │
-│   │   ├── 3.1 - Encapsulamiento/
-│   │   │   ├── 3.1 - Encapsulamiento.md
-│   │   │   ├── code/
-│   │   │   │   └── Encapsulamiento.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.2 - Herencia/
-│   │   │   ├── 3.2 - Herencia.md
-│   │   │   ├── code/
-│   │   │   │   └── Herencia.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.3 - Polimorfismo/
-│   │   │   ├── 3.3 - Polimorfismo.md
-│   │   │   ├── code/
-│   │   │   │   └── Polimorfismo.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.4 - Clases abstractas/
-│   │   │   ├── 3.4 - Clases abstractas.md
-│   │   │   ├── code/
-│   │   │   │   └── ClasesAbstractas.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.5 - Interfaces/
-│   │   │   ├── 3.5 - Interfaces.md
-│   │   │   ├── code/
-│   │   │   │   └── Interfaces.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.6 - Interfaces funcionales/
-│   │   │   ├── 3.6 - Interfaces funcionales.md
-│   │   │   ├── code/
-│   │   │   │   └── InterfacesFuncionales.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.7 - Lambdas/
-│   │   │   ├── 3.7 - Lambdas.md
-│   │   │   ├── code/
-│   │   │   │   └── Lambdas.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 3.8 - Streams/
-│   │   │   ├── 3.8 - Streams.md
-│   │   │   ├── code/
-│   │   │   │   └── Streams.java
-│   │   │   └── resources/
-│   │   │
-│   │   └── 3.9 - Clases anónimas y JavaDoc/
-│   │       ├── 3.9 - Clases anónimas y JavaDoc.md
-│   │       ├── code/
-│   │       │   └── ClasesAnonimas.java
-│   │       └── resources/
-│   │           └── diagrama_clases.png
+│   ├── 1.6 - Buenas prácticas iniciales/
+│   │   ├── 1.6 - Buenas prácticas iniciales.md
+│   │   ├── code/
+│   │   └── resources/
+│   │       └── buenas_practicas.png
 │   │
-│   ├── 4 - Parte IV - Avanzado/
-│   │   │
-│   │   ├── 4.1 - Paquetes y organización/
-│   │   │   ├── 4.1 - Paquetes y organización.md
-│   │   │   ├── code/
-│   │   │   │   └── Paquetes.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 4.2 - Generics/
-│   │   │   ├── 4.2 - Generics.md
-│   │   │   ├── code/
-│   │   │   │   └── Generics.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 4.3 - Concurrencia básica/
-│   │   │   ├── 4.3 - Concurrencia básica.md
-│   │   │   ├── code/
-│   │   │   │   └── Concurrencia.java
-│   │   │   └── resources/
-│   │   │       └── diagrama_concurrencia.png
-│   │   │
-│   │   ├── 4.4 - Serialización/
-│   │   │   ├── 4.4 - Serialización.md
-│   │   │   ├── code/
-│   │   │   │   └── Serializacion.java
-│   │   │   └── resources/
-│   │   │
-│   │   ├── 4.5 - Optional/
-│   │   │   ├── 4.5 - Optional.md
-│   │   │   ├── code/
-│   │   │   │   └── OptionalEjemplo.java
-│   │   │   └── resources/
-│   │   │
-│   │   └── 4.6 - NIO.2/
-│   │       ├── 4.6 - NIO.2.md
-│   │       ├── code/
-│   │       │   └── NIO2.java
-│   │       └── resources/
+│   ├── 1.7 - Tipos de datos/
+│   │   ├── 1.7 - Tipos de datos.md
+│   │   ├── code/
+│   │   │   └── TiposDatos.java
+│   │   └── resources/
 │   │
-│   └── 5 - Parte V - Proyecto RPG/
-│       │
-│       ├── 5.1 - Diseño del proyecto/
-│       │   ├── 5.1 - Diseño del proyecto.md
-│       │   ├── code/
-│       │   └── resources/
-│       │       └── mapa_juego.png
-│       │
-│       ├── 5.2 - Implementación paso a paso/
-│       │   ├── 5.2 - Implementación paso a paso.md
-│       │   ├── code/
-│       │   │   ├── model/
-│       │   │   │   └── Personaje.java
-│       │   │   ├── service/
-│       │   │   │   └── CombateService.java
-│       │   │   ├── ui/
-│       │   │   │   └── ConsolaUI.java
-│       │   │   └── Main.java
-│       │   └── resources/
-│       │
-│       ├── 5.3 - Persistencia del juego/
-│       │   ├── 5.3 - Persistencia del juego.md
-│       │   ├── code/
-│       │   │   └── GuardarJuego.java
-│       │   └── resources/
-│       │
-│       ├── 5.4 - Mejoras opcionales/
-│       │   ├── 5.4 - Mejoras opcionales.md
-│       │   ├── code/
-│       │   │   └── Mejoras.java
-│       │   └── resources/
-│       │
-│       └── 5.5 - Publicación y ejecución final/
-│           ├── 5.5 - Publicación y ejecución final.md
-│           ├── code/
-│           │   └── Main.java
-│           └── resources/
+│   ├── 1.8 - Variables/
+│   │   ├── 1.8 - Variables.md
+│   │   ├── code/
+│   │   │   └── Variables.java
+│   │   └── resources/
+│   │
+│   ├── 1.9 - Constantes/
+│   │   ├── 1.9 - Constantes.md
+│   │   ├── code/
+│   │   │   └── Constantes.java
+│   │   └── resources/
+│   │
+│   ├── 1.10 - Operadores/
+│   │   ├── 1.10 - Operadores.md
+│   │   ├── code/
+│   │   │   └── Operadores.java
+│   │   └── resources/
+│   │
+│   ├── 1.11 - Estructuras de control/
+│   │   ├── 1.11 - Estructuras de control.md
+│   │   ├── code/
+│   │   │   └── EstructurasControl.java
+│   │   └── resources/
+│   │
+│   ├── 1.12 - Arrays/
+│   │   ├── 1.12 - Arrays.md
+│   │   ├── code/
+│   │   │   └── ArraysEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 1.13 - Conversión y casting de tipos/
+│   │   ├── 1.13 - Conversión y casting de tipos.md
+│   │   ├── code/
+│   │   │   └── Casting.java
+│   │   └── resources/
+│   │
+│   ├── 1.14 - Entrada y salida básica/
+│   │   ├── 1.14 - Entrada y salida básica.md
+│   │   ├── code/
+│   │   │   └── EntradaSalida.java
+│   │   └── resources/
+│   │
+│   └── 1.15 - Manejo básico de errores/
+│       ├── 1.15 - Manejo básico de errores.md
+│       ├── code/
+│       │   └── TryCatchBasico.java
+│       └── resources/
+│
+├── 2 - Parte II - Intermedio/
+│   │
+│   ├── 2.1 - Métodos/
+│   │   ├── 2.1 - Métodos.md
+│   │   ├── code/
+│   │   │   └── MetodosEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 2.2 - Clases/
+│   │   ├── 2.2 - Clases.md
+│   │   ├── code/
+│   │   │   └── ClasesEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 2.3 - Modificadores/
+│   │   ├── 2.3 - Modificadores.md
+│   │   ├── code/
+│   │   │   └── Modificadores.java
+│   │   └── resources/
+│   │
+│   ├── 2.4 - Enums/
+│   │   ├── 2.4 - Enums.md
+│   │   ├── code/
+│   │   │   └── EnumsEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 2.5 - Excepciones/
+│   │   ├── 2.5 - Excepciones.md
+│   │   ├── code/
+│   │   │   └── ExcepcionesEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 2.6 - Archivos/
+│   │   ├── 2.6 - Archivos.md
+│   │   ├── code/
+│   │   │   └── ArchivosEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 2.7 - java.time/
+│   │   ├── 2.7 - java.time.md
+│   │   ├── code/
+│   │   │   └── JavaTimeEjemplo.java
+│   │   └── resources/
+│   │       └── tabla_fechas.png
+│   │
+│   ├── 2.8 - BigDecimal y BigInteger/
+│   │   ├── 2.8 - BigDecimal y BigInteger.md
+│   │   ├── code/
+│   │   │   └── BigNumberEjemplo.java
+│   │   └── resources/
+│   │
+│   └── 2.9 - Colecciones y Object/
+│       ├── 2.9 - Colecciones y Object.md
+│       ├── code/
+│       │   └── ColeccionesEjemplo.java
+│       └── resources/
+│           └── diagrama_colecciones.png
+│
+├── 3 - Parte III - OOP/
+│   │
+│   ├── 3.1 - Encapsulamiento/
+│   │   ├── 3.1 - Encapsulamiento.md
+│   │   ├── code/
+│   │   │   └── Encapsulamiento.java
+│   │   └── resources/
+│   │
+│   ├── 3.2 - Herencia/
+│   │   ├── 3.2 - Herencia.md
+│   │   ├── code/
+│   │   │   └── Herencia.java
+│   │   └── resources/
+│   │
+│   ├── 3.3 - Polimorfismo/
+│   │   ├── 3.3 - Polimorfismo.md
+│   │   ├── code/
+│   │   │   └── Polimorfismo.java
+│   │   └── resources/
+│   │
+│   ├── 3.4 - Clases abstractas/
+│   │   ├── 3.4 - Clases abstractas.md
+│   │   ├── code/
+│   │   │   └── ClasesAbstractas.java
+│   │   └── resources/
+│   │
+│   ├── 3.5 - Interfaces/
+│   │   ├── 3.5 - Interfaces.md
+│   │   ├── code/
+│   │   │   └── Interfaces.java
+│   │   └── resources/
+│   │
+│   ├── 3.6 - Constructores/
+│   │   ├── 3.6 - Constructores.md
+│   │   ├── code/
+│   │   │   └── Constructores.java
+│   │   └── resources/
+│   │
+│   ├── 3.7 - Interfaces funcionales/
+│   │   ├── 3.7 - Interfaces funcionales.md
+│   │   ├── code/
+│   │   │   └── InterfacesFuncionales.java
+│   │   └── resources/
+│   │
+│   ├── 3.8 - Lambdas/
+│   │   ├── 3.8 - Lambdas.md
+│   │   ├── code/
+│   │   │   └── Lambdas.java
+│   │   └── resources/
+│   │
+│   ├── 3.9 - Streams/
+│   │   ├── 3.9 - Streams.md
+│   │   ├── code/
+│   │   │   └── Streams.java
+│   │   └── resources/
+│   │
+│   └── 3.10 - Clases anónimas y JavaDoc/
+│       ├── 3.10 - Clases anónimas y JavaDoc.md
+│       ├── code/
+│       │   └── ClasesAnonimas.java
+│       └── resources/
+│           └── diagrama_clases.png
+│
+├── 4 - Parte IV - Avanzado/
+│   │
+│   ├── 4.1 - Paquetes y organización/
+│   │   ├── 4.1 - Paquetes y organización.md
+│   │   ├── code/
+│   │   │   └── Paquetes.java
+│   │   └── resources/
+│   │
+│   ├── 4.2 - Generics/
+│   │   ├── 4.2 - Generics.md
+│   │   ├── code/
+│   │   │   └── Generics.java
+│   │   └── resources/
+│   │
+│   ├── 4.3 - Concurrencia básica/
+│   │   ├── 4.3 - Concurrencia básica.md
+│   │   ├── code/
+│   │   │   └── Concurrencia.java
+│   │   └── resources/
+│   │       └── diagrama_concurrencia.png
+│   │
+│   ├── 4.4 - Serialización/
+│   │   ├── 4.4 - Serialización.md
+│   │   ├── code/
+│   │   │   └── Serializacion.java
+│   │   └── resources/
+│   │
+│   ├── 4.5 - Optional/
+│   │   ├── 4.5 - Optional.md
+│   │   ├── code/
+│   │   │   └── OptionalEjemplo.java
+│   │   └── resources/
+│   │
+│   ├── 4.6 - NIO.2/
+│   │   ├── 4.6 - NIO.2.md
+│   │   ├── code/
+│   │   │   └── NIO2.java
+│   │   └── resources/
+│   │
+│   └── 4.7 - Testing básico con JUnit/
+│       ├── 4.7 - Testing básico con JUnit.md
+│       ├── code/
+│       │   ├── CalculadoraTest.java
+│       │   ├── PersonajeTest.java
+│       │   └── CombateServiceTest.java
+│       └── resources/
+│
+└── 5 - Parte V - Proyecto RPG/
+    │
+    ├── 5.1 - Diseño del proyecto/
+    │   ├── 5.1 - Diseño del proyecto.md
+    │   ├── code/
+    │   └── resources/
+    │       └── mapa_juego.png
+    │
+    ├── 5.2 - Implementación paso a paso/
+    │   ├── 5.2 - Implementación paso a paso.md
+    │   ├── code/
+    │   │   ├── model/
+    │   │   │   └── Personaje.java
+    │   │   ├── service/
+    │   │   │   └── CombateService.java
+    │   │   ├── ui/
+    │   │   │   └── ConsolaUI.java
+    │   │   └── Main.java
+    │   └── resources/
+    │
+    ├── 5.3 - Persistencia del juego/
+    │   ├── 5.3 - Persistencia del juego.md
+    │   ├── code/
+    │   │   └── GuardarJuego.java
+    │   └── resources/
+    │
+    ├── 5.4 - Mejoras opcionales/
+    │   ├── 5.4 - Mejoras opcionales.md
+    │   ├── code/
+    │   │   └── Mejoras.java
+    │   └── resources/
+    │
+    └── 5.5 - Publicación y ejecución final/
+        ├── 5.5 - Publicación y ejecución final.md
+        ├── code/
+        │   └── Main.java
+        └── resources/
+
 │
 │====================================================================
 │====================================================================

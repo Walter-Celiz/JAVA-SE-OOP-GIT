@@ -1,31 +1,51 @@
-# Aprendizaje Java SE + OOP
+# Proyecto Java – Fundamentos y Construcción Profesional
 
-Después de estudiar programación en un bootcamp hace algunos años, no pude ejercer mi profesión debido a circunstancias personales y migratorias.
-Ahora retomo mis estudios, aprendiendo un nuevo lenguaje, enfocándome en backend y combinando Git para gestión de versiones.
-Este repositorio documenta mi aprendizaje práctico de Java SE, programación orientada a objetos (OOP) y Git, incluyendo teoría, ejemplos y ejercicios de código.
-Cada concepto se aplica directamente en proyectos de ejemplo, combinando teoría, práctica y control de versiones.
+## 📌 Descripción general
+
+Este repositorio documenta un proceso de aprendizaje y reconstrucción profesional en **Java**, enfocado en fundamentos sólidos, criterio técnico y buenas prácticas reales de la industria.
+
+No es un proyecto orientado a resultados rápidos ni a frameworks específicos, sino a comprender en profundidad el lenguaje, sus conceptos base y su uso correcto en contextos profesionales.
 
 ---
-## Objetivo
 
-Aprender de manera práctica y completa, combinando:
+## 🧭 Origen y motivación
 
-- Documentación estructurada en Obsidian.
-- Ejemplos y ejercicios de código en Java.
-- Control de versiones con Git y GitHub.
-- Uso de IA (ChatGPT) para resolver dudas y generar ejemplos de código.
+Mi formación inicial fue a través de un programa intensivo de desarrollo fullstack JavaScript (PERN stack), que resultó clave para adquirir una base en programación. Con el tiempo, y ya con mayor perspectiva, pude identificar limitaciones comunes de este tipo de formaciones aceleradas, especialmente en lo relacionado a fundamentos, diseño y comprensión profunda de las herramientas.
 
-## Tecnologías y herramientas
+Sumado al contexto del mercado en pandemia y post-pandemia, esto derivó en una pausa prolongada en el camino profesional del desarrollo. Sin embargo, el interés por programar nunca desapareció.
 
-- **Java SE** (v17 o superior)
-- **IntelliJ IDEA** para desarrollo de código
-- **Obsidian** para documentación y seguimiento
-- **Git y GitHub** para control de versiones y portafolio
-- **ChatGPT** para apoyo en aprendizaje y ejemplos prácticos
+Este proyecto nace desde una decisión consciente: **retomar el desarrollo de software con un enfoque más maduro**, priorizando bases sólidas, comprensión real y aprendizaje sin atajos.
+
+---
+
+## 🧠 Enfoque de aprendizaje y metodología
+
+El proyecto se construye de forma iterativa y reflexiva, siguiendo un proceso similar al que se utiliza en entornos profesionales:
+
+- análisis previo de los temas
+- propuestas iniciales
+- auditoría y corrección de decisiones
+- reorganización cuando es necesario
+- validación constante del enfoque
+
+Se utiliza **inteligencia artificial como herramienta de apoyo**, no como fuente de verdad. Las propuestas generadas son evaluadas críticamente, ajustadas o descartadas según criterio técnico y experiencia previa. La toma de decisiones finales es siempre humana.
+
+---
+
+## ☕ Decisiones técnicas
+
+- **Java 17 (LTS)** se utiliza como versión base del proyecto, por su estabilidad y adopción profesional.
+- **Java 8** se referencia como contexto histórico, para entender el origen de muchas decisiones del lenguaje.
+- **Java 21** se menciona de forma comparativa, para conocer la evolución moderna sin comprometer la base estable.
+
+El foco está en conceptos que trascienden versiones específicas.
+
+---
 
 ## Estructura del repositorio
+
 ```
-JAVA-SE-OOP-GIT/
+JAVA-SE-OOP-/
 │
 ├── 0 - Indice/
 │   └── Indice.md
@@ -71,54 +91,72 @@ JAVA-SE-OOP-GIT/
 │   │   ├── 1.7 - Tipos de datos.md
 │   │   ├── code/
 │   │   │   └── TiposDatos.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosTiposDatos.md
 │   │   └── resources/
 │   │
 │   ├── 1.8 - Variables/
 │   │   ├── 1.8 - Variables.md
 │   │   ├── code/
 │   │   │   └── Variables.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosVariables.md
 │   │   └── resources/
 │   │
 │   ├── 1.9 - Constantes/
 │   │   ├── 1.9 - Constantes.md
 │   │   ├── code/
 │   │   │   └── Constantes.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosConstantes.md
 │   │   └── resources/
 │   │
 │   ├── 1.10 - Operadores/
 │   │   ├── 1.10 - Operadores.md
 │   │   ├── code/
 │   │   │   └── Operadores.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosOperadores.md
 │   │   └── resources/
 │   │
 │   ├── 1.11 - Estructuras de control/
 │   │   ├── 1.11 - Estructuras de control.md
 │   │   ├── code/
 │   │   │   └── EstructurasControl.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosEstructurasControl.md
 │   │   └── resources/
 │   │
 │   ├── 1.12 - Arrays/
 │   │   ├── 1.12 - Arrays.md
 │   │   ├── code/
 │   │   │   └── ArraysEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosArrays.md
 │   │   └── resources/
 │   │
 │   ├── 1.13 - Conversión y casting de tipos/
 │   │   ├── 1.13 - Conversión y casting de tipos.md
 │   │   ├── code/
 │   │   │   └── Casting.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosCasting.md
 │   │   └── resources/
 │   │
 │   ├── 1.14 - Entrada y salida básica/
 │   │   ├── 1.14 - Entrada y salida básica.md
 │   │   ├── code/
 │   │   │   └── EntradaSalida.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosEntradaSalida.md
 │   │   └── resources/
 │   │
 │   └── 1.15 - Manejo básico de errores/
 │       ├── 1.15 - Manejo básico de errores.md
 │       ├── code/
 │       │   └── TryCatchBasico.java
+│       ├── exercises/
+│       │   └── EjerciciosTryCatch.md
 │       └── resources/
 │
 ├── 2 - Parte II - Intermedio/
@@ -127,57 +165,73 @@ JAVA-SE-OOP-GIT/
 │   │   ├── 2.1 - Métodos.md
 │   │   ├── code/
 │   │   │   └── MetodosEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosMetodos.md
 │   │   └── resources/
 │   │
 │   ├── 2.2 - Clases/
 │   │   ├── 2.2 - Clases.md
 │   │   ├── code/
 │   │   │   └── ClasesEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosClases.md
 │   │   └── resources/
 │   │
 │   ├── 2.3 - Modificadores/
 │   │   ├── 2.3 - Modificadores.md
 │   │   ├── code/
 │   │   │   └── Modificadores.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosModificadores.md
 │   │   └── resources/
 │   │
 │   ├── 2.4 - Enums/
 │   │   ├── 2.4 - Enums.md
 │   │   ├── code/
 │   │   │   └── EnumsEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosEnums.md
 │   │   └── resources/
 │   │
 │   ├── 2.5 - Excepciones/
 │   │   ├── 2.5 - Excepciones.md
 │   │   ├── code/
 │   │   │   └── ExcepcionesEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosExcepciones.md
 │   │   └── resources/
 │   │
 │   ├── 2.6 - Archivos/
 │   │   ├── 2.6 - Archivos.md
 │   │   ├── code/
 │   │   │   └── ArchivosEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosArchivos.md
 │   │   └── resources/
 │   │
 │   ├── 2.7 - java.time/
 │   │   ├── 2.7 - java.time.md
 │   │   ├── code/
 │   │   │   └── JavaTimeEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosJavaTime.md
 │   │   └── resources/
-│   │       └── tabla_fechas.png
 │   │
 │   ├── 2.8 - BigDecimal y BigInteger/
 │   │   ├── 2.8 - BigDecimal y BigInteger.md
 │   │   ├── code/
 │   │   │   └── BigNumberEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosBigNumbers.md
 │   │   └── resources/
 │   │
 │   └── 2.9 - Colecciones y Object/
 │       ├── 2.9 - Colecciones y Object.md
 │       ├── code/
 │       │   └── ColeccionesEjemplo.java
+│       ├── exercises/
+│       │   └── EjerciciosColecciones.md
 │       └── resources/
-│           └── diagrama_colecciones.png
 │
 ├── 3 - Parte III - OOP/
 │   │
@@ -185,62 +239,81 @@ JAVA-SE-OOP-GIT/
 │   │   ├── 3.1 - Encapsulamiento.md
 │   │   ├── code/
 │   │   │   └── Encapsulamiento.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosEncapsulamiento.md
 │   │   └── resources/
 │   │
 │   ├── 3.2 - Herencia/
 │   │   ├── 3.2 - Herencia.md
 │   │   ├── code/
 │   │   │   └── Herencia.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosHerencia.md
 │   │   └── resources/
 │   │
 │   ├── 3.3 - Polimorfismo/
 │   │   ├── 3.3 - Polimorfismo.md
 │   │   ├── code/
 │   │   │   └── Polimorfismo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosPolimorfismo.md
 │   │   └── resources/
 │   │
 │   ├── 3.4 - Clases abstractas/
 │   │   ├── 3.4 - Clases abstractas.md
 │   │   ├── code/
 │   │   │   └── ClasesAbstractas.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosClasesAbstractas.md
 │   │   └── resources/
 │   │
 │   ├── 3.5 - Interfaces/
 │   │   ├── 3.5 - Interfaces.md
 │   │   ├── code/
 │   │   │   └── Interfaces.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosInterfaces.md
 │   │   └── resources/
 │   │
 │   ├── 3.6 - Constructores/
 │   │   ├── 3.6 - Constructores.md
 │   │   ├── code/
 │   │   │   └── Constructores.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosConstructores.md
 │   │   └── resources/
 │   │
 │   ├── 3.7 - Interfaces funcionales/
 │   │   ├── 3.7 - Interfaces funcionales.md
 │   │   ├── code/
 │   │   │   └── InterfacesFuncionales.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosInterfacesFuncionales.md
 │   │   └── resources/
 │   │
 │   ├── 3.8 - Lambdas/
 │   │   ├── 3.8 - Lambdas.md
 │   │   ├── code/
 │   │   │   └── Lambdas.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosLambdas.md
 │   │   └── resources/
 │   │
 │   ├── 3.9 - Streams/
 │   │   ├── 3.9 - Streams.md
 │   │   ├── code/
 │   │   │   └── Streams.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosStreams.md
 │   │   └── resources/
 │   │
 │   └── 3.10 - Clases anónimas y JavaDoc/
 │       ├── 3.10 - Clases anónimas y JavaDoc.md
 │       ├── code/
 │       │   └── ClasesAnonimas.java
+│       ├── exercises/
+│       │   └── EjerciciosJavaDoc.md
 │       └── resources/
-│           └── diagrama_clases.png
 │
 ├── 4 - Parte IV - Avanzado/
 │   │
@@ -248,37 +321,48 @@ JAVA-SE-OOP-GIT/
 │   │   ├── 4.1 - Paquetes y organización.md
 │   │   ├── code/
 │   │   │   └── Paquetes.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosPaquetes.md
 │   │   └── resources/
 │   │
 │   ├── 4.2 - Generics/
 │   │   ├── 4.2 - Generics.md
 │   │   ├── code/
 │   │   │   └── Generics.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosGenerics.md
 │   │   └── resources/
 │   │
 │   ├── 4.3 - Concurrencia básica/
 │   │   ├── 4.3 - Concurrencia básica.md
 │   │   ├── code/
 │   │   │   └── Concurrencia.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosConcurrencia.md
 │   │   └── resources/
-│   │       └── diagrama_concurrencia.png
 │   │
 │   ├── 4.4 - Serialización/
 │   │   ├── 4.4 - Serialización.md
 │   │   ├── code/
 │   │   │   └── Serializacion.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosSerializacion.md
 │   │   └── resources/
 │   │
 │   ├── 4.5 - Optional/
 │   │   ├── 4.5 - Optional.md
 │   │   ├── code/
 │   │   │   └── OptionalEjemplo.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosOptional.md
 │   │   └── resources/
 │   │
 │   ├── 4.6 - NIO.2/
 │   │   ├── 4.6 - NIO.2.md
 │   │   ├── code/
 │   │   │   └── NIO2.java
+│   │   ├── exercises/
+│   │   │   └── EjerciciosNIO2.md
 │   │   └── resources/
 │   │
 │   └── 4.7 - Testing básico con JUnit/
@@ -287,6 +371,8 @@ JAVA-SE-OOP-GIT/
 │       │   ├── CalculadoraTest.java
 │       │   ├── PersonajeTest.java
 │       │   └── CombateServiceTest.java
+│       ├── exercises/
+│       │   └── EjerciciosTesting.md
 │       └── resources/
 │
 └── 5 - Parte V - Proyecto RPG/
@@ -294,44 +380,42 @@ JAVA-SE-OOP-GIT/
     ├── 5.1 - Diseño del proyecto/
     │   ├── 5.1 - Diseño del proyecto.md
     │   ├── code/
+    │   ├── exercises/
+    │   │   └── EjerciciosDiseno.md
     │   └── resources/
-    │       └── mapa_juego.png
     │
     ├── 5.2 - Implementación paso a paso/
     │   ├── 5.2 - Implementación paso a paso.md
     │   ├── code/
-    │   │   ├── model/
-    │   │   │   └── Personaje.java
-    │   │   ├── service/
-    │   │   │   └── CombateService.java
-    │   │   ├── ui/
-    │   │   │   └── ConsolaUI.java
-    │   │   └── Main.java
+    │   ├── exercises/
+    │   │   └── EjerciciosImplementacion.md
     │   └── resources/
     │
     ├── 5.3 - Persistencia del juego/
     │   ├── 5.3 - Persistencia del juego.md
     │   ├── code/
-    │   │   └── GuardarJuego.java
+    │   ├── exercises/
+    │   │   └── EjerciciosPersistencia.md
     │   └── resources/
     │
     ├── 5.4 - Mejoras opcionales/
     │   ├── 5.4 - Mejoras opcionales.md
     │   ├── code/
-    │   │   └── Mejoras.java
+    │   ├── exercises/
+    │   │   └── EjerciciosMejoras.md
     │   └── resources/
     │
     └── 5.5 - Publicación y ejecución final/
         ├── 5.5 - Publicación y ejecución final.md
         ├── code/
-        │   └── Main.java
+        ├── exercises/
+        │   └── EjerciciosFinales.md
         └── resources/
 
-│
 │====================================================================
 │====================================================================
-│
-│
+
+
 GIT/
 │
 ├── 0 - Índice/
@@ -510,9 +594,35 @@ GIT/
 
 > Cada capítulo tendrá su documentación en Markdown, ejemplos de código en la carpeta `code/` y recursos opcionales en `resources/`.
 
-## Cómo usarlo
+## ▶️ Cómo usar este repositorio
 
-1. Abrir IntelliJ IDEA o IDE/editor de preferencia e importar la carpeta `JAVA SE + OOP` como proyecto Java.
-2. Ejecutar los archivos `.java` dentro de la carpeta `code/`.
-3. Consultar la documentación `.md` en Obsidian o programa de preferencia para repasar teoría y ejercicios.
+1. Clonar el repositorio: 'git clone <url-del-repositorio>'
+
+2. Abrir el proyecto en el IDE de preferencia (recomendado: IntelliJ IDEA).
+
+3. Avanzar por los temas en el orden propuesto:
+   - Leer la documentación en Markdown
+   - Ejecutar los ejemplos de código
+   - Resolver los ejercicios de práctica sin consultar la solución
+
+4. Usar Git durante el proceso para:
+   - registrar avances,
+   - practicar commits,
+   - entender el flujo real de trabajo con control de versiones.
+
+La documentación puede leerse directamente desde GitHub o mediante herramientas como Obsidian.
+
+---
+
+## 📌 Nota final
+
+Este repositorio es un **proyecto vivo**, que evoluciona junto con el aprendizaje.
+
+Más que mostrar resultados finales, busca reflejar:
+- el proceso,
+- las decisiones,
+- los ajustes,
+- y la forma de pensar detrás del código.
+
+La finalidad no es solo aprender Java, sino **aprender a aprender como un desarrollador profesional**.
 

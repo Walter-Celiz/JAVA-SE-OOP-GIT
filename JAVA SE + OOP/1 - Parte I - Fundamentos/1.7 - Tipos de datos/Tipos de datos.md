@@ -101,6 +101,59 @@ System.out.println(saludo); // Salida: Hola, Walter!
 	System.out.println("En mayúsculas: " + frase.toUpperCase());
 ```
 
+#### IMPRIMIR EN PANTALLA SEGUN TIPO DE DATO UTILIZANDO PRINTF
+
+| Código | Tipo de dato   | Significado                     | Ejemplo         |
+| ------ | -------------- | ------------------------------- | --------------- |
+| `%s`   | String         | texto                           | `"Hola %s"`     |
+| `%d`   | int            | entero (decimal)                | `"Edad: %d"`    |
+| `%f`   | double / float | decimal                         | `"Altura: %f"`  |
+| `%b`   | boolean        | true / false                    | `"Activo: %b"`  |
+| `%c`   | char           | carácter                        | `"Letra: %c"`   |
+| `%x`   | int            | hexadecimal                     | `"Hex: %x"`     |
+| `%o`   | int            | octal                           | `"Octal: %o"`   |
+| `%e`   | double         | notación científica             | `"%.2e"`        |
+| `%n`   | —              | salto de línea (mejor que `\n`) | `"Hola%nMundo"` |
+| `%%`   | —              | imprime `%`                     | `"100%%"`       |
+|        |                |                                 |                 |
+
+ejemplo:
+```java
+String nombre = "Walter";
+int edad = 33;
+double altura = 1.81;
+boolean activo = true;
+
+System.out.printf("Nombre: %s%nEdad: %d%nAltura: %.2f%nActivo: %b%n",
+                  nombre, edad, altura, activo);
+```
+
+## Detalles importantes
+
+##  `%.2f`
+ controla decimales
+
+%.2f → 2 decimales
+
+##  `%n` vs `\n`
+
+ `%n` es más correcto en `printf`
+
+```java
+System.out.printf("Hola%nMundo");
+```
+
+✔️ portable  
+✔️ recomendado en Java
+
+## `%%`
+
+```java
+System.out.printf("Progreso: 100%%");
+```
+
+imprime `100%`
+
 ## 3) Notas adicionales
 
 - Elegir correctamente el tipo de dato mejora rendimiento y claridad.

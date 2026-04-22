@@ -133,7 +133,7 @@ Orden simplificado de prioridad:
 5. Operadores lógicos
 6. Asignación
 
-👉 Usar paréntesis mejora la claridad y evita errores lógicos.
+==👉 Usar paréntesis mejora la claridad y evita errores lógicos.==
 
 ---
 ## 3) Integración RPG

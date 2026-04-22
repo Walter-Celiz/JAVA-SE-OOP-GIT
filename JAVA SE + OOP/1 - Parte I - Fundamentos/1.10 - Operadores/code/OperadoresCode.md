@@ -16,7 +16,8 @@ public class Operadores {
 		boolean puedePelear = sigueVivo && vida > 20;
 		      
 		// Incremento     
-		int nivel = 1;     nivel++;
+		int nivel = 1;     
+		nivel++;
 		      
 		// Concatenación     
 		System.out.println("Vida actual: " + vida);     

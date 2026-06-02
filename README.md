@@ -119,15 +119,24 @@ JAVA-SE-OOP-/
 │   │   │   └── EjerciciosOperadores.md
 │   │   └── resources/
 │   │
-│   ├── 1.11 - Estructuras de control/
-│   │   ├── 1.11 - Estructuras de control.md
+│   ├── 1.11 - Entrada de datos/
+│   │   ├── 1.11 - Scanner (Entrada de Datos).md
 │   │   ├── code/
-│   │   │   └── EstructurasControl.java
+│   │   │   └── EntradaDeDatosCode.java
+│   │   ├── exercises/
+│   │   │   └── EntradaDatosExercises.md
+│   │   └── resources/
+│   │
+│   ├── 1.12 - Estructuras de control/
+│   │   ├── 1.12 - Estructuras de control.md
+│   │   ├── code/
+│   │   │   └── EstructurasCode.java
 │   │   ├── exercises/
 │   │   │   └── EjerciciosEstructurasControl.md
 │   │   └── resources/
+│   │       └── EstructurasResources.md
 │   │
-│   ├── 1.12 - Arrays/
+│   ├── 1.13 - Arrays/
 │   │   ├── 1.12 - Arrays.md
 │   │   ├── code/
 │   │   │   └── ArraysEjemplo.java
@@ -135,7 +144,7 @@ JAVA-SE-OOP-/
 │   │   │   └── EjerciciosArrays.md
 │   │   └── resources/
 │   │
-│   ├── 1.13 - Conversión y casting de tipos/
+│   ├── 1.14 - Conversión y casting de tipos/
 │   │   ├── 1.13 - Conversión y casting de tipos.md
 │   │   ├── code/
 │   │   │   └── Casting.java
@@ -143,7 +152,7 @@ JAVA-SE-OOP-/
 │   │   │   └── EjerciciosCasting.md
 │   │   └── resources/
 │   │
-│   ├── 1.14 - Entrada y salida básica/
+│   ├── 1.15 - Entrada y salida básica/
 │   │   ├── 1.14 - Entrada y salida básica.md
 │   │   ├── code/
 │   │   │   └── EntradaSalida.java
@@ -151,7 +160,7 @@ JAVA-SE-OOP-/
 │   │   │   └── EjerciciosEntradaSalida.md
 │   │   └── resources/
 │   │
-│   └── 1.15 - Manejo básico de errores/
+│   └── 1.16 - Manejo básico de errores/
 │       ├── 1.15 - Manejo básico de errores.md
 │       ├── code/
 │       │   └── TryCatchBasico.java
